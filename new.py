@@ -13,9 +13,9 @@ face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_fronta
 pygame.mixer.init()
 
 # Load ding sound
-ding_sound = pygame.mixer.Sound("ding.mp3")  # Replace "ding.wav" with the path to your ding sound file
+ding_sound = pygame.mixer.Sound("ding.mp3")  
 ding_sound2 = pygame.mixer.Sound("welcome2.mp3")
-# Open a video capture object (you can replace this with an image or video file as needed)
+
 cap = cv2.VideoCapture(0)  # 0 corresponds to the default camera
 
 while True:
